@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Living</title>
+    <link rel="stylesheet" href="wireframe.css">
+  </head>
+
+<!-- CSS Code -->
+<style>
+ 
+</style>
+
+<!-- HTML Body -->
+<body>
+  <header>
+    <div class="home" id="home">
+
+      <img src="./images/museum-of-new-zealand-te-papa-tongarewa-1C7oRRwUkgU-unsplash.jpg" alt="Logo" width="50">
+      
+      <h1>Health & Wellness</h1>
+
+      <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+
+        <button onclick="alert('you clicked Help 1 from html file')">Help</button>
+        <!-- <button onclick=got_click()>Help</button> -->
+      </div>      
+    </div> 
+  </header>
+   
+  <section class="profile" id="profile"> 
+    
+    <!-- <h1 class="profile_title">Food, Fitness, Rest</h1> -->
+
+    <div class="box-container">
+      
+      <div class="box image1">
+        <h2>Food</h2>
+        <p>Nourish & Heal</p>
+      </div>
+
+      <div class="box image">
+        <h2>Fitness</h2>
+        <p>Dance into Your 90s</p>
+      </div>
+
+      <div class="box image2">
+        <h2>Rest</h2>
+        <p>Connect Inwards</p>
+      </div>
+    
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <h1>Contact me</h1>  
+    <form action="" method="get">
+      <label for="name">Your name:</label><br>
+      <input type="text" name="name" id="name"><br>
+      <label for="email">Your email:</label><br>
+      <input type="email" name="email" id="email"><br>
+      <input type="submit" onclick="alert('Message sent')" class="submit" value="Submit">
+      <!-- <input type="button" onclick="alert('Message sent')" class="submit" value="Submit"> -->
+    </form>
+  </section>
+
+  <script src="./wireframe.js"></script>
+</body>
+</html>
